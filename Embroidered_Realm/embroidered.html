@@ -42,16 +42,13 @@
          opacity: 0.6;
         }
     </style>
-    <script>
-    var myXml = new XMLHttpRequest();
-    myXml.onreadystatechange = function() {
-        if ((myXml.readyState === 4) && (myXml.status === 200)) {
-            document.getElementById("loadArea-1").innerHTML = myXml.responseText;
-        }
-    }
-    myXml.open("GET", "https://embroidered-realm-bear.vercel.app/embroideredheader.html", true);
-    myXml.send(null);
-    </script>
+    <header>
+    <div class="title">Embroidered Realm
+    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/embroidered.html"><font size="+1">Home</font></a>
+    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/embroidered.html"><font size="+1">Fundamental</font></a>
+    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/embroidered.html"><font size="+1">About</font></a>
+    </div>
+    </header>
     <br>
     <table border="5" bordercolor="white" width="80%" height="70%">
     <tr>
