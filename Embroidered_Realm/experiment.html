@@ -48,15 +48,45 @@
             text-align: center;
             padding: 10px;
         }
+        header {
+          width: 100%;
+          padding: 15px 0;
+          margin: 0 auto;
+          text-align: center;
+        }
+        header .headline{
+          font-size: 32px;
+        }
+        .nav-list {
+          text-align: center;
+          padding: 10px 0;
+          margin: 0 auto;
+        }
+        .nav-list-item {
+          list-style: none;
+          display: inline-block;
+          margin: 0 20px;
+        }
     </style>
     <header>
-    <div class="title">Embroidered Realm
-    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/embroidered.html"><font size="+1">Embroidered</font></a>
-    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/fundamental.html"><font size="+1">Fundamental</font></a>
-    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/about.html"><font size="+1">About</font></a>
-    &nbsp;&nbsp;&nbsp;<a href="https://embroidered-realm-bear.vercel.app/others.html"><font size="+1">Others</font></a>
-    </div>
-    </header>
+    <h1 class="headline">
+      <a>Embroidered Realm</a>
+    </h1>
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a href="embroidered.html">Embroidered</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="fundamental.html">Fundamental</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="about.html">About</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="others.html">Others</a>
+      </li>
+    </ul>
+  </header>
     <br>
     This is experiment.
     <footer>
